@@ -14,3 +14,4 @@ Eliza is a simple yet versatile blog engine that is constructed for ease of use 
 * *Refactor and modularize files*
 * *Create a "build" system for easy installation*
 * *Create configuration folder for static items (Name, Blog title, stylesheet, etc)*
+* *Implement more types of markup languages*
