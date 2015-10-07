@@ -1,4 +1,16 @@
-# What is Eliza?
+# **Master branch is empty until [Development branch](https://github.com/Yahvuh/Eliza/tree/development) basics is done.**
+___
+## **What is Eliza?**
 Eliza is a simple yet versatile blog engine that is constructed for ease of use and customizability. 
 
-# Todo
+## **Todo**
+#### Basics
+* ~~*Render Markdown pages through templates*~~
+* *Create central route containing all posts*
+* *Create tag and author system*
+* *Implement basic stylesheet*
+
+#### Secondary
+* *Refactor and modularize files*
+* *Create a "build" system for easy installation*
+* *Create configuration folder for static items (Name, Blog title, stylesheet, etc)*
