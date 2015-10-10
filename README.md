@@ -16,3 +16,4 @@ Eliza is a simple yet versatile blog engine that is constructed for ease of use 
 * *Create configuration folder for static items (Name, Blog title, stylesheet, etc)*
 * *Implement more types of markup languages*
 * *Include different types of template languages*
+* *Create a profile page that shows all posts that author has made*
