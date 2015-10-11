@@ -16,6 +16,7 @@ app.config.from_object(__name__)
 def index():
 	return 'Index'
 
+#Not related to /profile/<path:name>
 @app.route('/pages/<path:name>')
 def page(name):
 	page = pages.get_or_404(name)
