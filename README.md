@@ -8,7 +8,7 @@ Eliza is a simple yet versatile blog engine that is constructed for ease of use 
 * ~~*Render Markdown pages through templates*~~
 * *Create central route containing all posts*
 * *Create tag and author system*
-* *Implement basic stylesheet*
+* ~~*Implement basic stylesheet*~~
 
 #### Secondary
 * *Refactor and modularize files*
