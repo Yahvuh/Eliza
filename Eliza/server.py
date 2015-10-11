@@ -6,21 +6,28 @@ from flask import Flask, render_template
 from flask_flatpages import FlatPages
 
 DEBUG = True
+#Defaults to /pages, so now /Eliza is root
+FLATPAGES_ROOT = '.'
 FLATPAGES_EXTENSION = '.md'
 
 app = Flask(__name__)
-pages = FlatPages(app)
+item = FlatPages(app)
 app.config.from_object(__name__)
 
 @app.route('/')
 def index():
 	return 'Index'
 
-#Not related to /profile/<path:name>
-@app.route('/pages/<path:name>')
-def page(name):
-	page = pages.get_or_404(name)
+#Look at this hack
+@app.route('/<path:folderPath>/<path:filePath>')
+def page(folderPath, filePath):
+	page = item.get_or_404(folderPath + '/' + filePath)
 	return render_template('page.html', page=page)
+
+@app.route('/<path:folderPath>/<path:filePath>')
+def profile():
+	profile = item.get_or_404(folderPath + '/' + filePath)
+	return render_template('profile.html', profile=profile)
 
 if __name__ == "__main__":
 	app.run(debug=True)
