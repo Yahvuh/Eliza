@@ -17,3 +17,4 @@ Eliza is a simple yet versatile blog engine that is constructed for ease of use 
 * *Implement more types of markup languages*
 * *Include different types of template languages*
 * *Create a profile page that shows all posts that author has made*
+* *Add "sticky" function to posts that are stuck to the top of pages/profiles*
