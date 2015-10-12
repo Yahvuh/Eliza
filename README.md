@@ -1,6 +1,6 @@
-# **Master branch is empty until [Development branch](https://github.com/Yahvuh/Eliza/tree/development) basics is done.**
+**Eliza is currently in development, and the existing codebase can drastically change**
 ___
-## **What is Eliza?**
+## What is Eliza?
 Eliza is a simple yet versatile blog engine that is constructed for ease of use and customizability. 
 
 ## **Todo**
