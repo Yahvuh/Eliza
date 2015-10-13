@@ -1,5 +1,7 @@
-{% extends "./base/base.html" %}
+{% extends "base/base.html" %}
 {% block content %}
 	{{ page.html|safe }}
 	{{ page.title }}
-{% endblock %}
+	
+	{% include "partials/footer.html"%}
+{% endblock content %}
