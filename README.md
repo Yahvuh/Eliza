@@ -21,3 +21,4 @@ Eliza is a simple yet versatile blog engine that is constructed for ease of use 
 
 #### Additional
 * *Create a dynamic version of Eliza, fit with a Database, on top of the static version*
+* *Create a comment system*
